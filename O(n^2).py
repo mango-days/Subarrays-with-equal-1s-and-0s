@@ -5,7 +5,7 @@
 array = [ 1 , 0 , 0 , 1 , 0 ,  1 , 1 ]
 ans = []
 
-for interval_length in range ( 0 , len ( array ) ) :
+for interval_length in range ( 1 , len ( array ) ) :
     
     for index in range ( 0 , len ( array ) - interval_length ) :
         
